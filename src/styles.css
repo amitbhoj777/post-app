@@ -1,0 +1,122 @@
+body {
+  background: #000;
+  color: #fff;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.loginContainer {
+  width: 463px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  top: 100px;
+  position: relative;
+}
+.loginContainer form {
+  padding: 24px;
+  border: 2px;
+  background: #27292d;
+  border-radius: 8px;
+  border-style: solid;
+  border: 2px solid #969696;
+  width: 100%;
+}
+form .closeIcon{
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  cursor: pointer;
+}
+form .closeIcon img{
+  width: 100%;
+}
+
+form .titleArea {
+  padding: 16px;
+  text-align: center;
+}
+form .titleArea .title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #6b6c70;
+  margin: 0;
+  font-family: inter;
+}
+form .titleArea .subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  margin-top: 5px;
+  font-family: inter;
+}
+form .formFields {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 0;
+}
+
+form .formFields label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  font-family: inter;
+  margin-bottom: 5px;
+  color: #c5c7ca;
+  vertical-align: top;
+}
+form .formFields label a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  float: none;
+  color: #fff;
+}
+form .formFields input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  font-family: inter;
+  border-radius: 2px;
+  border: 1.5px solid #35373b;
+  padding: 12px;
+  color: #fff;
+  background: initial;
+}
+form .formFields a {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.36px;
+  font-family: inter;
+  color: #c5c7ca;
+  float: right;
+  text-decoration: none;
+}
+form .formFields button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  font-family: inter;
+  border-radius: 2px;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  background: #4a96ff;
+  margin-bottom: 8px;
+}
+
+.modalComponent{
+  position: absolute;
+  top: 6%;
+  left: 37%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.modalComponent.visible{
+  visibility: visible;
+  opacity: 1;
+}

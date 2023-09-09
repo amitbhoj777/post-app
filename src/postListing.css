@@ -1,0 +1,140 @@
+.listingContainer {
+  width: 700px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+.listingContainer.bgBlur{
+  filter:blur(3px);
+}
+.listingContainer header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.listingContainer header h1 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33.89px;
+  color: #c5c7ca;
+  font-family: inter;
+}
+.listingContainer header h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7f8084;
+  font-family: inter;
+  max-width: 580px;
+}
+.listingContainer .cardArea {
+  width: 100%;
+  background: #27292d;
+  border-radius: 8px;
+  border: 2px solid #35373b;
+  margin: 12px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.cardArea .titleSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+.cardArea .titleSection .imageSection {
+  width: 44px;
+  height: 44px;
+}
+.cardArea .titleSection .imageSection img{
+  width: 100%;
+}
+.cardArea .titleSection .rightIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+.cardArea .titleSection .rightIcon img{
+  width: 100%;
+}
+
+.cardArea .titleSection .titleArea{
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+
+}
+.cardArea .titleSection .titleArea .title{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #C5C7CA;
+  font-family: inter;
+  margin-bottom: 5px;
+}
+.cardArea .titleSection .titleArea .subTitle{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #7F8084;
+  font-family: inter;
+}
+
+.cardArea .description {
+  display: flex;
+  margin-bottom: 20px;
+  background: #191920;
+  padding: 16px;
+  border-radius: 8px;
+}
+.cardArea .description .imageSection {
+  padding-right: 20px;
+  width: 48px;
+  height: 48px;
+}
+.cardArea .description .imageSection img{
+  width: 100%;
+}
+.cardArea .description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7f8084;
+  font-family: inter;
+  max-width: 551px;
+  margin: 0;
+  vertical-align: middle;
+}
+.cardArea .footer {
+  display: flex;
+  /* justify-content: right; */
+}
+.cardArea .footer p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #7f8084;
+  font-family: inter;
+  margin-top: 2px;
+}
+.cardArea .footer .imageSection {
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.cardArea .footer .imageSection img{
+  width: 100%;
+}
+.cardArea .footer button {
+  padding: 16px;
+  background: #4a96ff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  font-family: inter;
+  border-radius: 4px;
+  min-width: 111px;
+  cursor: pointer;
+  margin-left: auto;
+}
